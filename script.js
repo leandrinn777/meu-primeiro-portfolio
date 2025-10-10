@@ -27,7 +27,7 @@ window.addEventListener('resize', () => {
 
 // Partículas
 let particlesArray = [];
-const colors = ['#4A90E2', '#6FCF97', '#00C2FF', '#00FFAA'];
+const colors = ['#360259', '#CAA9D9', '#A56DF2', '#3436afff'];
 
 class Particle {
   constructor() {
@@ -78,7 +78,7 @@ animateParticles();
 
 // Contador animado
 const contador = document.getElementById('contador');
-let projetos = 2;
+let projetos = 4;
 let count = 0;
 
 function animarContador() {
@@ -108,7 +108,7 @@ botaoModo.style.position = 'fixed';
 botaoModo.style.top = '20px';
 botaoModo.style.right = '20px';
 botaoModo.style.padding = '10px 20px';
-botaoModo.style.background = '#6FCF97';
+botaoModo.style.background = '#A56DF2';
 botaoModo.style.color = '#101820';
 botaoModo.style.border = 'none';
 botaoModo.style.cursor = 'pointer';
@@ -138,7 +138,7 @@ botaoModo.addEventListener('click', () => {
   if (document.body.classList.contains('claro')) {
     overlay.style.backgroundColor = '#fff';
   } else {
-    overlay.style.backgroundColor = '#000';
+    overlay.style.backgroundColor = '#000000ff';
   }
 
   // Fade in
