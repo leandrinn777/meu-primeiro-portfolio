@@ -145,6 +145,7 @@ body {
   margin: 15px 0 10px;
   color: #AC79F2;
   transition: color 0.6s ease;
+  
 }
 
 .card p {
@@ -237,4 +238,13 @@ body.claro .contato h2 {
 body.claro footer {
   background: #fdfdfd;
   color: #4A90E2;
+}
+
+
+
+#contador {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #fff;
 }

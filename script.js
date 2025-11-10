@@ -78,7 +78,7 @@ animateParticles();
 
 // Contador animado
 const contador = document.getElementById('contador');
-let projetos = 4;
+let projetos = 6;
 let count = 0;
 
 function animarContador() {
